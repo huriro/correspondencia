@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/reg"
+    tools:context=".TelaConsulracorrespndencias2">
+    <TextView
+        android:id="@+id/texTViewid"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:background="#4F4F4F"
+
+        android:text="Esta é a tela de consulta de  correspondência"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageViewassinatura2"
+        android:layout_width="362dp"
+        android:layout_height="195dp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+
+
+        android:scaleType="fitXY"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="353dp"
+        android:layout_height="258dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/TextViewApto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+
+            android:text="Apto" />
+
+        <TextView
+            android:id="@+id/TextViewdestinatario2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="Destinatario" />
+
+        <TextView
+            android:id="@+id/TextViewTipo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="Tipo" />
+
+        <TextView
+            android:id="@+id/textViewdescriminacao2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="Descriminação" />
+
+        <TextView
+            android:id="@+id/textViewDataEntrega"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:text="Data Entrega" />
+
+        <TextView
+            android:id="@+id/textView8dataRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:text="Data do Registro" />
+
+        <TextView
+            android:id="@+id/textView11destinatariorecebeu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:text="Destinatario Recebeu" />
+
+        <TextView
+            android:id="@+id/textView12UsuarioRegistrou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:text="Usuario que registrou" />
+
+        <TextView
+            android:id="@+id/textView13Usuarioentregou"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Usuario que entregou" />
+
+        <TextView
+            android:id="@+id/textView20Status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="Status" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonwhast"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="compartilhar imagem" />
+
+    <ProgressBar
+        android:id="@+id/progressBarconsulFinal"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+</LinearLayout>

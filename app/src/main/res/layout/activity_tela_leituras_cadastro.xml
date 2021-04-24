@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".TelaLeiturasCadastro">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="ULTIMA LEITURA AGUA"
+            android:textColor="#FBA917" />
+
+        <TextView
+            android:id="@+id/textVdataagua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Data" />
+
+        <TextView
+            android:id="@+id/textVleituraagua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Leitura" />
+
+        <TextView
+            android:id="@+id/textVconsumoagua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Consumo" />
+
+        <EditText
+            android:id="@+id/editTextleituraAgua"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/reg"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Digite aqui leitura agua"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonleituraAgua"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/salvar" />
+
+        <TextView
+            android:id="@+id/textViewconsumoatualagua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Consumo atual" />
+
+        <TextView
+            android:id="@+id/txtpesquisaAgua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:clickable="true"
+
+            android:text="Clik aqui para pesquisar historico"
+            android:textAlignment="center"
+            android:textColor="#0517EA" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="ULTIMA LEITURA ENERGIA"
+            android:textColor="#FBA917" />
+
+        <TextView
+            android:id="@+id/textVdataenergia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Data" />
+
+        <TextView
+            android:id="@+id/textVleituraenergia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Leitura" />
+
+        <TextView
+            android:id="@+id/textVconsumoenergia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Consumo" />
+
+        <EditText
+            android:id="@+id/editTextleituraEnergia"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/reg"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Digite aqui leitura Energia"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonleituraenergia"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/salvar" />
+
+        <TextView
+            android:id="@+id/textViewconsumoatualenergia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Consumo atual" />
+
+        <TextView
+            android:id="@+id/txtpesquisaenergia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Clik aqui para pesquisar historico"
+            android:textColor="#0517EA" />
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

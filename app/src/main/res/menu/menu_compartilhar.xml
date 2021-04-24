@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/menu_exportarpdf"
+        android:title="Exportar PDF(relatorio inteiro)"
+        />
+    <item android:id="@+id/menu_exportarUimo10"
+        android:title="Compartilhar os ultimos 10 itens">
+        <menu>
+            <item android:id="@+id/menu_exportarwhatsapp"
+                android:title="Texto com WhastsApp"
+
+                />
+            <item android:id="@+id/menu_exportartexto"
+            android:title="Texto outros App"
+
+            />
+            <item android:id="@+id/menu_exportarpdf10"
+            android:title="Exportar pdf"
+
+            />
+        </menu>
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Login">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:hint="E-Mail"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edEmail"
+            android:layout_width="384dp"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:background="@drawable/log"
+            android:layout_gravity="center"
+             />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/senha"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorPrimary">
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edSenha1"
+            android:layout_width="384dp"
+            android:background="@drawable/log"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:inputType="numberPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:text="@string/login"
+        android:textColor="#FFF"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="300dp" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "943862368785",
+    "firebase_url": "https://controle-de-correpondencias.firebaseio.com",
+    "project_id": "controle-de-correpondencias",
+    "storage_bucket": "controle-de-correpondencias.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943862368785:android:083bfbf76a3d10edc1bfb0",
+        "android_client_info": {
+          "package_name": "com.example.controledecorrepondencias"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943862368785-p15re1v6l3tbo7cer238bjpen1gtvn1v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.controledecorrepondencias",
+            "certificate_hash": "91f5ef348d292689c7d38d27725856ff3163b411"
+          }
+        },
+        {
+          "client_id": "943862368785-cgn81t94cgtl5u2clh86okv3gkk1afd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCVYfNf9RdEB7hbVXYo1BUG4uv-Y-SrsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943862368785-cgn81t94cgtl5u2clh86okv3gkk1afd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

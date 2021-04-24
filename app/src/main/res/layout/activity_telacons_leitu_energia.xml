@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TelaconsLeituEnergia">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tela de historico de consumo de energia"
+        android:textColor="#FBA917" />
+
+    <EditText
+        android:id="@+id/editTextpequiEnergia"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:background="@drawable/reg"
+        android:gravity="center"
+        android:hint="Digite aqui mês/ano"
+        android:inputType="number" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerVleituraEnergia"
+        android:layout_marginTop="10dp"
+        android:layout_width="344dp"
+
+        android:layout_height="517dp"
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/reg" />
+
+</LinearLayout>

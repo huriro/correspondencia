@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg"
+    tools:context=".TelaResevaCadastro">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:text="Esta é a tela de cadastro de novas reservas" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="355dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/selecione_o_apto" />
+
+        <Spinner
+            android:id="@+id/spinneraptoreservas"
+            android:layout_width="195dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/reg"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SELECIONE A RESERVA" />
+
+        <Spinner
+            android:id="@+id/spinnertipodereserva"
+            android:layout_width="315dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:background="@drawable/reg"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp"
+            android:text="MORADOR" />
+
+        <EditText
+            android:id="@+id/editTextresponsavelreservacadastro"
+            android:layout_width="315dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:background="@drawable/reg"
+            android:ems="10"
+            android:hint="Nome do morador"
+            android:inputType="textCapCharacters"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp"
+            android:text="DATA" />
+
+        <EditText
+            android:id="@+id/editTextdatareservacadastro"
+            android:layout_width="315dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:background="@drawable/reg"
+            android:ems="10"
+            android:hint="Data da reserva"
+            android:inputType="date"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/buttonCadastrareserva"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/reg"
+            android:text="@string/salvar" />
+
+        <TextView
+            android:id="@+id/textViewStatusReseva"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textAlignment="center" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

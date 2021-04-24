@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Controle de correspondências</string>
+    <string name="informe_o_destinatario">INFORME O DESTINATARIO</string>
+    <string name="selecione_o_apto">SELECIONE O APTO</string>
+    <string name="destinat_rio">Destinatário</string>
+    <string name="fale_sobre_a_correspod_ncia">FALE SOBRE A CORRESPODÊNCIA</string>
+    <string name="esta_tela_destinada_ao_cadastramento_de_novas_coreespondencias">ESTA TELA É DESTINADA AO CADASTRAMENTO DE NOVAS COREESPONDENCIAS</string>
+    <string name="discrimina_o">Discriminação</string>
+    <string name="selecione_o_tipo_de_correspond_ncia">SELECIONE O TIPO DE CORRESPONDÊNCIA</string>
+    <string name="salvar">Salvar</string>
+    <string name="todo">TODO</string>
+    <string name="e_mail">E-mail</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="n_o_tem_login_entre_em_contato_com_o_sindico_do_seu_condom_nio">Não tem login? entre em contato com o sindico do seu condomínio</string>
+    <string name="esta_a_lista_de_correspond_ncias_ativas">Esta é a lista de correspondências ativas</string>
+    <string name="nome">Nome:</string>
+    <string name="condominio">condominio</string>
+    <string name="fun_o">Função:</string>
+    <string name="correspondencias_ativas">correspondencias ativas</string>
+    <string name="novas_correspondencias">novas correspondencias</string>
+    <string name="consultas">consultas</string>
+    <string name="Onclick">onclick</string>
+
+    <string-array name="tipodereserva">
+        <item></item>
+        <item>Salão de festa</item>
+        <item>Churrasqueira</item>
+    </string-array>
+    <string-array name="tipoconsulta">
+        <item>Apto</item>
+        <item>Destinatario</item>
+        <item>Discriminação</item>
+        <item>Data</item>
+    </string-array>
+    <string-array name="tipoleituraapto">
+        <item>Data</item>
+        <item>Apto</item>
+    </string-array>
+    <string-array name="tipo">
+        <item></item>
+        <item>SEDEX</item>
+        <item>PAC</item>
+        <item>HDL</item>
+        <item>LOGGI</item>
+        <item>REGISTRADA</item>
+        <item>JUDICIAL</item>
+        <item>AMERICANAS.COM</item>
+        <item>.COM</item>
+        <item>MAGAZINE LUIZA.COM</item>
+        <item>TELEGRAMA</item>
+        <item>PACOTE</item>
+        <item>CAIXA</item>
+        <item>EXAME</item>
+        <item>FARMACIA</item>
+        <item>MECARDO LIVRE</item>
+        <item>AMAZONAS.COM</item>
+    </string-array>
+    <string-array name="Aptos">
+        <item></item>
+        <item>11</item>
+        <item>12</item>
+        <item>21</item>
+        <item>22</item>
+        <item>31</item>
+        <item>32</item>
+        <item>41</item>
+        <item>42</item>
+        <item>51</item>
+        <item>52</item>
+        <item>61</item>
+        <item>62</item>
+        <item>71</item>
+        <item>72</item>
+        <item>81</item>
+        <item>82</item>
+        <item>91</item>
+        <item>92</item>
+        <item>101</item>
+        <item>102</item>
+        <item>111</item>
+        <item>112</item>
+        <item>121</item>
+        <item>122</item>
+        <item>131</item>
+        <item>132</item>
+        <item>zelador</item>
+        <item>condominio</item>
+    </string-array>
+</resources>

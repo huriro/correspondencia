@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/reg"
+    tools:context=".CadastroCorrespondencias">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/esta_tela_destinada_ao_cadastramento_de_novas_coreespondencias" />
+
+    <ImageView
+        android:id="@+id/imgnovafoto"
+        android:layout_width="267dp"
+        android:layout_height="176dp"
+        android:layout_gravity="center"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/selecione_o_apto"
+            android:textColor="#041247" />
+
+        <Spinner
+            android:id="@+id/spinnerApto"
+            android:layout_width="122dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/reg"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/selecione_o_tipo_de_correspond_ncia"
+            android:textColor="#041247"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/spinnertipo"
+            android:layout_width="314dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/reg"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/informe_o_destinatario"
+            android:textColor="#041247" />
+
+        <EditText
+            android:id="@+id/editTextdestinatatioCadastro"
+            android:layout_width="314dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:autofillHints=""
+            android:background="@drawable/reg"
+            android:hint="@string/destinat_rio"
+            android:inputType="textCapCharacters"
+            android:maxLength="40"
+            android:nextFocusDown="@+id/editText2discriminacãocadastro"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/fale_sobre_a_correspod_ncia"
+            android:textColor="#041247" />
+
+        <EditText
+            android:id="@+id/editText2discriminacãocadastro"
+            android:layout_width="314dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:autofillHints=""
+            android:background="@drawable/reg"
+            android:hint="@string/discrimina_o"
+            android:inputType="textCapCharacters"
+            android:maxLength="40"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnNovafoto"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/reg"
+            android:text="foto" />
+
+        <Button
+            android:id="@+id/buttoncadastro"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/reg"
+            android:text="@string/salvar" />
+
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBarCadastro"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</ScrollView>
